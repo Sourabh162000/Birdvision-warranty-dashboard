@@ -28,6 +28,8 @@ const Login = () => {
       navigate("/dashboard");
     } else {
       alert("Invalid credentials");
+      setUsername("");
+      setPassword("");
     }
   };
 
